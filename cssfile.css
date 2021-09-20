@@ -1,0 +1,125 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right,rgba(0,0,0, 0.6),rgba(0,0,0, 0.2)),url(image/image.jpg);
+    background-position: center;
+    background-size: cover;
+}
+header{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    padding: 20px 45px;
+}
+header ul {
+    position: relative;
+    display: flex;
+
+}
+header ul li{
+    list-style-type: none;
+    padding: 7px;
+}
+header ul li a {
+    display: inline-block;
+    color: orange;
+    padding: 5px;
+    text-decoration:none;
+    font-weight: 400;
+    margin-left: 40px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    transition: 0.4s ease-in-out;
+}
+header ul li a:hover {
+    color: blanchedalmond;
+    background-color: orange;
+    border-radius: 12px;
+}
+.content {
+    position: relative;
+    width: 600px;
+}
+.content h2{
+    color: blanchedalmond;
+    font-size: 4em;
+    line-height: 1.2em;
+    font-weight: 500;
+}
+.content h2 span {
+    color:orange ;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+.content p{
+    color: blanchedalmond;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    line-height: 1.3em;
+}
+.content a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background-color: orange;
+    color: blanchedalmond;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+}
+.footer{
+    color: rgb(0, 136, 255);
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+    font-size: larger;
+}
+i{
+    padding-left: 10px;
+    list-style-type: none;
+
+}
+ ul {
+    position: relative;
+    display: flex;
+
+}
+ ul li{
+    list-style-type: none;
+    padding: 7px;
+}
+ ul li a {
+    display: inline-block;
+    color: orange;
+    padding: 5px;
+    text-decoration:none;
+    font-weight: 400;
+    margin-left: 20px;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover {
+    color: blanchedalmond;
+    background-color: orange;
+    border-radius: 12px;
+}
+#demo {
+    color: blanchedalmond;
+    margin-top: 20px;
+    letter-spacing: 1.5px;
+    line-height: 1.3em;
+}
